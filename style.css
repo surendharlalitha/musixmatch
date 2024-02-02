@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    width: 90%;
+}
+nav div ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width:80%;
+    margin: 10px;
+    margin-left: 30%;
+
+}
+nav div ul a{
+    width: 50%;
+    margin: 10px;
+    text-decoration: none; 
+    color: black;
+}
+div ul a:hover{
+    color: brown;
+}
+.sign{
+    border-radius: 30px;
+    padding: 3px;
+    color: white;
+    background-color: black;
+    font-size: 17px;
+    
+}
+
+.pro{
+    background-color: red;
+    color: white;
+    padding-right:8px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 8px;
+    font-size: 10px;
+}
+.first1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.first2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.first3{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.first4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ;
+}
+main div ul li{
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.main1{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.div3{
+    display: flex;
+    margin-left: 10px;
+}
+section div img:hover{
+    transform: scale(1.02);
+}
+.button2{
+    height: 35px;
+    width: 90px;
+    border-radius: 5px;
+    border-color: rgb(255, 250, 250);
+    margin-left: 50%;
+    font-weight: bold;
+    margin-top: 40px;
+
+}
+.img3{
+    margin-left: 125px;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.img4{
+    margin-left: 350px;
+}
+.selection3{
+    display: flex;
+}
+.selection3 div img:hover{
+    transform: scale(1.02)}
+.but1{
+    color: white;
+    background-color: black;
+    font-size: 15px;
+    margin-top: 30px;
+    height: 40px;
+    width: 110px;
+    border-radius: 10px;
+    border: none;
+}
+.but2{
+    border: none;
+    color: white;
+    background-color: rgb(235, 51, 51);
+    font-size: 15px;
+    margin-top: 30px;
+    height: 40px;
+    width: 110px;
+    border-radius: 10px;
+}
+
+footer div ul li a {
+    color: black;
+    text-decoration: none;
+    }
+    footer div ul li a:hover{
+        color: black;
+    }
+    .footer1{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-right: 20px; 
+        line-height: 130%;
+    }
